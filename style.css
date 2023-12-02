@@ -23,8 +23,22 @@
 }
 
 /**/
-.icon{
+.facebook,
+.trello,
+.worklio,
+.dropbox,
+.google,
+.subtract,
+.slack {
+    width: 70px;
+    height: 70px;
+}
+.facebook-color{
     fill: #3C5A9A;
+}
+
+.trello-color {
+    fill: #E44332;
 }
 
 .svg__section__one {
