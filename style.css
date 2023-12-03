@@ -12,6 +12,10 @@
     font-weight: 400;
 }
 
+body {
+    background-color: #E5E5E5;
+}
+
 .container {
     max-width: 1440px;
     padding: 0 57px;
@@ -33,7 +37,12 @@
     width: 70px;
     height: 70px;
 }
-.facebook-color{
+
+.human-coffe {
+    width: 288px;
+}
+
+.facebook-color {
     fill: #3C5A9A;
 }
 
@@ -41,20 +50,78 @@
     fill: #E44332;
 }
 
-.svg__section__one {
-    background: #FFF6ED;
-    gap: 100px;
+.svg__section__absolute {
+    position: absolute;
+}
+
+.svg__card__four {
+    width: 100%;
 }
 
 .svg__coffe {
-    gap: 10px;
+    margin-bottom: 21px;
+}
+
+.svg__card__five {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg__icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 80px;
+    gap: 30px;
+}
+
+.svg__section__one {
+    background: #FFF6ED;
+    justify-content: space-between;
+}
+
+.svg__section__two {
+    background: #FFF;
+}
+
+.svg__icon {
+    display: flex;
+    gap: 90px;
+}
+
+.g-10 {
+    gap: 8px;
 }
 
 .pt-60 {
     padding-top: 60px;
 }
 
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.widtch {
+    width: 375px;
+    height: 288px;
+}
+
+.img-svg {
+    width: 550px;
+    height: 275px;
+    padding-left: 665px;
+    /*большой паддинг*/
+}
+
+.semicircle{
+    padding-top: 24px;
+    width: 550px;
+    height: 275px;
+}
+
 .taitl {
+    font-family: 'OpenSans';
     color: #000;
     text-align: center;
     font-size: 40px;
@@ -63,7 +130,14 @@
     line-height: normal;
 }
 
+.taitl__left {
+    text-align: left;
+    margin-bottom: 11px;
+    width: 693px;
+}
+
 .taitl__one {
+    font-family: 'OpenSans';
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,6 +145,7 @@
 }
 
 .taitl__two {
+    font-family: 'OpenSans';
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -84,6 +159,8 @@
 }
 
 .taitl__info {
+    width: 592px;
+    font-family: 'OpenSans';
     color: #000;
     font-size: 16px;
     font-style: normal;
